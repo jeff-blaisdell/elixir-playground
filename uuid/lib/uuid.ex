@@ -1,0 +1,2 @@
+defmodule Uuid do
+end
