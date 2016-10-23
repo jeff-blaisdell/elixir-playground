@@ -33,7 +33,6 @@ defmodule Morse do
     options
   end
 
-
   def to_morse(text) do
     IO.puts "Converting to \"#{text}\" to morse..."
     header = %WavHeader{channels: 1, format: :float, sample_size: 32}
